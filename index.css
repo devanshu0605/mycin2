@@ -260,7 +260,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 487px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/dsdl1.jfif?rand=4f06");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/WhatsAppImage2022-02-23at16.26.351.jpeg");
   background-position: 50% 50%;
 }
 
@@ -280,7 +280,7 @@
 
 .u-section-5 .u-image-2 {
   min-height: 520px;
-  background-image: url("images/dsdl2.jfif");
+  background-image: url("images/WhatsAppImage2022-03-03at16.24.58.jpeg");
   background-position: 50% 50%;
 }
 
@@ -373,4 +373,6 @@
   .u-section-5 .u-image-2 {
     min-height: 311px;
   }
+}.u-section-6 .u-sheet-1 {
+  min-height: 132px;
 }
