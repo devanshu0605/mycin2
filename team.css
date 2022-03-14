@@ -186,9 +186,10 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 409px;
+  grid-auto-columns: calc(33.3333% - 6.66667px);
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -198,7 +199,7 @@
 .u-section-3 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("avishi.jpeg");
+  background-image: url("images/avishi.jpeg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -218,7 +219,7 @@
 .u-section-3 .u-image-2 {
   width: 290px;
   height: 290px;
-  background-image: url("archit.jpeg");
+  background-image: url("images/archit.jpeg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -228,6 +229,26 @@
 }
 
 .u-section-3 .u-text-5 {
+  margin: 20px 0 0;
+}
+
+.u-section-3 .u-container-layout-3 {
+  padding: 30px 30px 0;
+}
+
+.u-section-3 .u-image-3 {
+  width: 290px;
+  height: 290px;
+  background-image: url("images/kanak.jpg");
+  background-position: 0% 0%;
+  margin: 0 auto;
+}
+
+.u-section-3 .u-text-6 {
+  margin: 20px 0 0;
+}
+
+.u-section-3 .u-text-7 {
   margin: 20px 0 0;
 }
 
@@ -243,34 +264,14 @@
   min-height: 439px;
 }
 
-.u-section-3 .u-container-layout-3 {
-  padding: 30px;
-}
-
-.u-section-3 .u-image-6 {
-  width: 290px;
-  height: 290px;
-  background-image: url("kanak.jpg");
-  background-position: 50% 50%;
-  margin: 0 auto;
-}
-
-.u-section-3 .u-text-6 {
-  margin: 20px 0 0;
-}
-
-.u-section-3 .u-text-7 {
-  margin: 20px 0 0;
-}
-
 .u-section-3 .u-container-layout-4 {
   padding: 30px;
 }
 
-.u-section-3 .u-image-3 {
+.u-section-3 .u-image-4 {
   width: 290px;
   height: 290px;
-  background-image: url("maaz.jpg");
+  background-image: url("images/maaz.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -287,18 +288,10 @@
   padding: 30px;
 }
 
-.u-section-3 .u-image-4 {
-  width: 290px;
-  height: 290px;
-  background-image: url("nandini.jpg");
-  background-position: 50% 50%;
-  margin: 0 auto;
-}
-
 .u-section-3 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url("bhoomika.jpg");
+  background-image: url("images/nandini.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -311,10 +304,30 @@
   margin: 20px 0 0;
 }
 
+.u-section-3 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-section-3 .u-image-6 {
+  width: 290px;
+  height: 290px;
+  background-image: url("images/bhoomika.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-3 .u-text-12 {
+  margin: 20px 0 0;
+}
+
+.u-section-3 .u-text-13 {
+  margin: 20px 0 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
-    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
     min-height: 432px;
+    grid-auto-columns: calc(33.333333333333336% - 6.66667px);
   }
 
   .u-section-3 .u-image-1 {
@@ -323,6 +336,11 @@
   }
 
   .u-section-3 .u-image-2 {
+    width: 232px;
+    height: 232px;
+  }
+
+  .u-section-3 .u-image-3 {
     width: 232px;
     height: 232px;
   }
@@ -336,6 +354,7 @@
 @media (max-width: 991px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    grid-auto-columns: calc(50% - 5.0000025px);
   }
 
   .u-section-3 .u-repeater-2 {
@@ -347,6 +366,7 @@
 @media (max-width: 767px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -359,13 +379,13 @@
     padding-right: 10px;
   }
 
-  .u-section-3 .u-repeater-2 {
-    grid-template-columns: 100%;
-  }
-
   .u-section-3 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-3 .u-repeater-2 {
+    grid-template-columns: 100%;
   }
 
   .u-section-3 .u-container-layout-4 {
@@ -376,5 +396,16 @@
   .u-section-3 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-3 .u-container-layout-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-repeater-1 {
+    grid-auto-columns: 100%;
   }
 }
